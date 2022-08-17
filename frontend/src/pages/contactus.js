@@ -11,6 +11,7 @@ import LoadingButton from "@mui/lab/LoadingButton";
 import contactt from "../images/contact.jpg";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
+import "../dashboards/alert.css"
 
 import "./contactus.css";
 import axios from "axios";
@@ -123,13 +124,7 @@ export default function ContactUs() {
             </LoadingButton>
             {alert ? (
               <Stack
-                sx={{
-                  width: "70%",
-                  position: "absolute",
-                  top: "18%",
-                  transition: "1s",
-                }}
-                spacing={2}
+                className="alert"
               >
                 <Alert variant="filled" severity="success">
                   Message sent successfully
