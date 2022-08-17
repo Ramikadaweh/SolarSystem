@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 7%;
+  flex-wrap: wrap-reverse;
+  margin-top: 4%;
+}
+.contact img {
+  height: 70vh;
+  width: 50vw;
+  border-radius: 25px;
+}
+.second {
+  margin-top: 5%;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+@media (max-width: 700px) {
+  .contact img {
+    display: none;
+  }
+  .contact .t {
+    width: 75vw;
+  }
+  .second {
+    margin-right: auto;
+  }
+}

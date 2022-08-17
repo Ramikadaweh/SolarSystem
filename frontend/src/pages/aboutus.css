@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    justify-content: center;
+    gap:7%;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+.first{
+    text-align: justify;
+    width: 40%;
+    height: 60%;
+}
+.about img{
+    height: 70vh;
+    width:42vw;
+    border-radius: 50%;
+}
+@media(max-width:700px){
+    .about img{
+      display: none;
+    }
+    .first{
+        width:80%;
+    }
+}

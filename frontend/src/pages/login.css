@@ -1,0 +1,65 @@
+.login {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 15%;
+  border-radius: 2%;
+  width: 70%;
+  height: 80%;
+  box-shadow: 10px 10px 25px grey;
+}
+.formLog {
+  width: 50%;
+  height: 65%;
+  }
+#input-with-sl{
+  width:300px;
+}
+.psign {
+  font-size: 30px;
+  font-weight: bold;
+  color: gray;
+}
+#login_form > button{
+  margin-top: 8%;
+}
+.logimg {
+  width: 100%;
+}
+.login>h1{
+  text-align: start;
+}
+
+@media (max-width: 1264px) {
+  .logimg {
+    display: none;
+  }
+  .login{
+    justify-content: center;
+}
+.login>h1{
+  text-align: center;
+}
+#input-with-sl {
+  width: 350;
+}
+  
+}
+
+@media (max-width: 650px) {
+  #input-with-sl {
+    width: 250;
+  }
+  
+  .formLog {
+    width: 100%;
+    height: 65%;
+  }
+  .psign{
+    text-align: center;
+  }
+
+  
+}

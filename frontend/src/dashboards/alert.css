@@ -1,0 +1,17 @@
+.alert {
+  position: fixed;
+  width: 250px;
+  top: 90px;
+  right: 5px;
+  animation-name: example;
+  animation-duration: 0.7s;
+}
+
+@keyframes example {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 5px;
+  }
+}

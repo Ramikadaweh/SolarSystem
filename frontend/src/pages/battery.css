@@ -1,0 +1,9 @@
+.nv{
+    background-color: rgb(92, 73, 130)  ;
+}
+.batcard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: center;
+}

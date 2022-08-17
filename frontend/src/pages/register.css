@@ -1,0 +1,35 @@
+.register {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  border-radius: 2%;
+  width: 80%;
+  height: 80%;
+  box-shadow: 10px 10px 25px grey;
+}
+.psign {
+  font-size: 30px;
+  font-weight: bold;
+}
+#input-with-sx {
+  width: 400px;
+}
+    
+@media (max-width: 1264px) {
+  .regimg {
+    display: none;
+  }
+  .register{
+      justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  #input-with-sx {
+    width: 100%;
+  }
+}
