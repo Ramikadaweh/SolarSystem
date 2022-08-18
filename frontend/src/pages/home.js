@@ -37,7 +37,7 @@ export default function Home() {
       </section>
 
       <section className="services">
-        <h1>Services We Offre</h1>
+        <h1>Services We Offer</h1>
         <p>We can offre for you several kind of services like:</p>
 
         <div className="row">
